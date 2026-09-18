@@ -1,0 +1,7 @@
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ikon pembayaran digital">
+  <rect x="5" y="12" width="38" height="26" rx="4" fill="#3156A6"/>
+  <rect x="5" y="18" width="38" height="6" fill="#162A5A"/>
+  <rect x="10" y="29" width="12" height="4" rx="1" fill="#F7C948"/>
+  <circle cx="35" cy="31" r="4" fill="none" stroke="#DDE8FA" stroke-width="1.6"/>
+  <circle cx="35" cy="31" r="1.4" fill="#F28C28"/>
+</svg>

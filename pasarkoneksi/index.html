@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PasarKoneksi — Dari Koneksi Digital Menuju Peluang Pasar</title>
+<meta name="description" content="PasarKoneksi adalah ekosistem pasar digital yang menghubungkan pelaku usaha, konsumen, pembayaran digital, dan data dalam satu jaringan peluang.">
+<link rel="icon" href="./assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- ============ SKIP LINK ============ -->
+<a href="#main" class="skip-link">Langsung ke konten</a>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="#beranda" class="brand">
+      <img src="./assets/logo.svg" alt="" class="brand-mark" width="36" height="36">
+      <span class="brand-name">PasarKoneksi</span>
+    </a>
+
+    <nav class="nav-menu" id="navMenu" aria-label="Navigasi utama">
+      <a href="#beranda" class="nav-link active" data-nav>Beranda</a>
+      <a href="#pasar" class="nav-link" data-nav>Jelajahi Pasar</a>
+      <a href="#ekosistem" class="nav-link" data-nav>Ekosistem</a>
+      <a href="#peluang" class="nav-link" data-nav>Peluang</a>
+      <a href="#data" class="nav-link" data-nav>Data</a>
+      <a href="#tentang" class="nav-link" data-nav>Tentang</a>
+    </nav>
+
+    <a href="#pasar" class="btn btn-primary nav-cta">Mulai Jelajahi</a>
+
+    <button class="hamburger" id="hamburgerBtn" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ 1. HERO ============ -->
+<section class="hero" id="beranda">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow-chip">Digital Market Ecosystem</p>
+      <h1 class="hero-title">Dari Koneksi Digital<br>Menuju Peluang Pasar</h1>
+      <p class="hero-subtitle">Ketika teknologi menghubungkan pelaku usaha, konsumen, informasi, dan transaksi, koneksi digital berubah menjadi peluang pasar.</p>
+      <div class="hero-actions">
+        <a href="#pasar" class="btn btn-primary">Jelajahi Pasar</a>
+        <a href="#ekosistem" class="btn btn-outline">Lihat Ekosistem</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="hero-stat-number">14,26 M</span>
+          <span class="hero-stat-label">transaksi digital 2025</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-number">44,86 jt</span>
+          <span class="hero-stat-label">merchant QRIS 2026</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-number">96,68%</span>
+          <span class="hero-stat-label">merchant adalah UMKM</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <svg viewBox="0 0 480 480" class="hero-svg" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="phoneGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#243B78"/>
+            <stop offset="100%" stop-color="#162A5A"/>
+          </linearGradient>
+          <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+            <stop offset="0%" stop-color="#DDE8FA" stop-opacity="0.9"/>
+            <stop offset="100%" stop-color="#DDE8FA" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <circle cx="240" cy="240" r="210" fill="url(#glow)"/>
+        <!-- connection lines -->
+        <g stroke="#3156A6" stroke-width="2" stroke-dasharray="5 6" fill="none" opacity="0.55">
+          <path d="M240 240 L80 120"/>
+          <path d="M240 240 L400 110"/>
+          <path d="M240 240 L70 340"/>
+          <path d="M240 240 L410 360"/>
+          <path d="M240 240 L240 60"/>
+        </g>
+        <!-- nodes -->
+        <g>
+          <circle cx="80" cy="120" r="26" fill="#FFF3D6"/>
+          <text x="80" y="126" text-anchor="middle" font-size="22">🧑‍🌾</text>
+        </g>
+        <g>
+          <circle cx="400" cy="110" r="26" fill="#F7C948"/>
+          <text x="400" y="116" text-anchor="middle" font-size="22">🛍️</text>
+        </g>
+        <g>
+          <circle cx="70" cy="340" r="26" fill="#FFFFFF"/>
+          <text x="70" y="346" text-anchor="middle" font-size="22">💳</text>
+        </g>
+        <g>
+          <circle cx="410" cy="360" r="26" fill="#F28C28"/>
+          <text x="410" y="366" text-anchor="middle" font-size="20">📊</text>
+        </g>
+        <g>
+          <circle cx="240" cy="60" r="22" fill="#DDE8FA"/>
+          <text x="240" y="66" text-anchor="middle" font-size="18">📶</text>
+        </g>
+        <!-- phone -->
+        <rect x="170" y="150" width="140" height="240" rx="24" fill="url(#phoneGrad)"/>
+        <rect x="182" y="172" width="116" height="176" rx="10" fill="#F7F9FC"/>
+        <rect x="190" y="182" width="60" height="8" rx="4" fill="#3156A6"/>
+        <rect x="190" y="198" width="100" height="34" rx="8" fill="#DDE8FA"/>
+        <rect x="190" y="240" width="47" height="47" rx="8" fill="#F7C948"/>
+        <rect x="243" y="240" width="47" height="47" rx="8" fill="#F28C28"/>
+        <rect x="190" y="295" width="100" height="20" rx="6" fill="#243B78"/>
+        <circle cx="240" cy="378" r="7" fill="#DDE8FA"/>
+      </svg>
+    </div>
+  </div>
+  <div class="hero-scroll-cue" aria-hidden="true"><span></span></div>
+</section>
+
+<!-- ============ 2. MASALAH ============ -->
+<section class="section challenges" id="tantangan">
+  <div class="container">
+    <div class="section-head">
+      <p class="section-kicker">Kondisi Saat Ini</p>
+      <h2 class="section-title">Tantangan Pasar Saat Ini</h2>
+    </div>
+    <div class="challenge-grid">
+      <article class="challenge-card">
+        <div class="challenge-icon" style="background:var(--navy)">🔍</div>
+        <h3>Akses Pasar Terbatas</h3>
+        <p>Produk usaha lokal belum selalu mudah ditemukan oleh konsumen.</p>
+      </article>
+      <article class="challenge-card">
+        <div class="challenge-icon" style="background:var(--blue)">📣</div>
+        <h3>Promosi Digital</h3>
+        <p>Pelaku usaha membutuhkan cara promosi yang lebih luas dan efektif.</p>
+      </article>
+      <article class="challenge-card">
+        <div class="challenge-icon" style="background:var(--orange)">💳</div>
+        <h3>Transaksi</h3>
+        <p>Proses transaksi perlu semakin praktis dan mudah.</p>
+      </article>
+      <article class="challenge-card">
+        <div class="challenge-icon" style="background:var(--navy-dark)">📊</div>
+        <h3>Informasi Pasar</h3>
+        <p>Data dan informasi dapat membantu pelaku usaha memahami pasar.</p>
+      </article>
+      <article class="challenge-card">
+        <div class="challenge-icon" style="background:var(--yellow-dark)">🏁</div>
+        <h3>Persaingan</h3>
+        <p>Pelaku usaha perlu beradaptasi dengan perubahan perilaku konsumen.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3. DATA & FAKTA ============ -->
+<section class="section data-section" id="data">
+  <div class="container">
+    <div class="section-head light">
+      <p class="section-kicker">Angka di Balik Ekosistem</p>
+      <h2 class="section-title">Data &amp; Fakta</h2>
+    </div>
+
+    <div class="data-block">
+      <h3 class="data-year">2025</h3>
+      <div class="stat-grid">
+        <div class="stat-card">
+          <span class="stat-number">14,26 miliar</span>
+          <span class="stat-label">transaksi pembayaran digital</span>
+          <span class="stat-period">Triwulan IV 2025</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">+39,21%</span>
+          <span class="stat-label">pertumbuhan year-on-year</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">59,53 juta</span>
+          <span class="stat-label">pengguna QRIS</span>
+          <span class="stat-period">Triwulan IV 2025</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">42,75 juta</span>
+          <span class="stat-label">merchant QRIS</span>
+          <span class="stat-period">Triwulan IV 2025</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="data-block">
+      <h3 class="data-year">2026</h3>
+      <div class="stat-grid">
+        <div class="stat-card">
+          <span class="stat-number">12,55 miliar</span>
+          <span class="stat-label">transaksi QRIS</span>
+          <span class="stat-period">Semester I 2026</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">Rp1,12 kuadriliun</span>
+          <span class="stat-label">nilai transaksi QRIS</span>
+          <span class="stat-period">Semester I 2026</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">65,77 juta</span>
+          <span class="stat-label">pengguna QRIS</span>
+          <span class="stat-period">hingga Juni 2026</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">44,86 juta</span>
+          <span class="stat-label">merchant QRIS</span>
+          <span class="stat-period">hingga Juni 2026</span>
+        </div>
+        <div class="stat-card highlight">
+          <span class="stat-number">96,68%</span>
+          <span class="stat-label">merchant QRIS merupakan UMKM</span>
+          <span class="stat-period">hingga Juni 2026</span>
+        </div>
+      </div>
+    </div>
+
+    <p class="data-source">Sumber: Bank Indonesia, 2025–2026; Kementerian Komunikasi dan Digital RI, 2026.</p>
+  </div>
+</section>
+
+<!-- ============ 4. JELAJAHI PASAR ============ -->
+<section class="section market" id="pasar">
+  <div class="container">
+    <div class="section-head">
+      <p class="section-kicker">Marketplace PasarKoneksi</p>
+      <h2 class="section-title">Temukan Produk, Temukan Peluang</h2>
+    </div>
+
+    <div class="market-controls">
+      <div class="search-box">
+        <span class="search-icon" aria-hidden="true">🔎</span>
+        <input type="search" id="searchInput" placeholder="Cari produk atau usaha…" aria-label="Cari produk atau usaha">
+      </div>
+      <div class="filter-chips" id="filterChips" role="group" aria-label="Filter kategori produk">
+        <button class="chip active" data-filter="Semua">Semua</button>
+        <button class="chip" data-filter="Makanan">Makanan</button>
+        <button class="chip" data-filter="Minuman">Minuman</button>
+        <button class="chip" data-filter="Fashion">Fashion</button>
+        <button class="chip" data-filter="Pertanian">Pertanian</button>
+        <button class="chip" data-filter="Peternakan">Peternakan</button>
+        <button class="chip" data-filter="Kerajinan">Kerajinan</button>
+      </div>
+    </div>
+
+    <div class="product-grid" id="productGrid" aria-live="polite"></div>
+    <p class="empty-state" id="emptyState" hidden>Produk tidak ditemukan. Coba kata kunci atau filter lain.</p>
+  </div>
+</section>
+
+<!-- ============ 7. EKOSISTEM ============ -->
+<section class="section ecosystem" id="ekosistem">
+  <div class="container">
+    <div class="section-head light">
+      <p class="section-kicker">Satu Jaringan, Banyak Peluang</p>
+      <h2 class="section-title">Ekosistem Pasar Digital</h2>
+      <p class="section-lead">Semua terhubung. Semua membuka peluang.</p>
+    </div>
+
+    <div class="ecosystem-layout">
+      <div class="ecosystem-diagram-wrap">
+        <svg viewBox="0 0 520 520" class="ecosystem-svg" id="ecosystemSvg" role="img" aria-label="Diagram ekosistem pasar digital">
+          <g class="eco-lines" stroke="#3156A6" stroke-width="2" fill="none" opacity="0.5">
+            <line x1="260" y1="260" x2="260" y2="80"/>
+            <line x1="260" y1="260" x2="430" y2="150"/>
+            <line x1="260" y1="260" x2="430" y2="370"/>
+            <line x1="260" y1="260" x2="260" y2="440"/>
+            <line x1="260" y1="260" x2="90" y2="370"/>
+            <line x1="260" y1="260" x2="90" y2="150"/>
+          </g>
+
+          <g class="eco-center">
+            <circle cx="260" cy="260" r="76" fill="#F7C948"/>
+            <text x="260" y="252" text-anchor="middle" class="eco-center-text">EKOSISTEM</text>
+            <text x="260" y="272" text-anchor="middle" class="eco-center-text">PASAR DIGITAL</text>
+          </g>
+
+          <g class="eco-node" data-node="usaha" tabindex="0" role="button" aria-label="Pelaku Usaha">
+            <circle cx="260" cy="80" r="52" fill="#243B78"/>
+            <text x="260" y="76" text-anchor="middle" class="eco-node-icon">🧑‍🌾</text>
+            <text x="260" y="94" text-anchor="middle" class="eco-node-text">PELAKU USAHA</text>
+          </g>
+
+          <g class="eco-node" data-node="konsumen" tabindex="0" role="button" aria-label="Konsumen">
+            <circle cx="430" cy="150" r="52" fill="#3156A6"/>
+            <text x="430" y="146" text-anchor="middle" class="eco-node-icon">🛍️</text>
+            <text x="430" y="164" text-anchor="middle" class="eco-node-text">KONSUMEN</text>
+          </g>
+
+          <g class="eco-node" data-node="platform" tabindex="0" role="button" aria-label="Platform Digital">
+            <circle cx="430" cy="370" r="52" fill="#162A5A"/>
+            <text x="430" y="362" text-anchor="middle" class="eco-node-icon">📶</text>
+            <text x="430" y="380" text-anchor="middle" class="eco-node-text">PLATFORM</text>
+            <text x="430" y="393" text-anchor="middle" class="eco-node-text">DIGITAL</text>
+          </g>
+
+          <g class="eco-node" data-node="pembayaran" tabindex="0" role="button" aria-label="Pembayaran Digital">
+            <circle cx="260" cy="440" r="52" fill="#F28C28"/>
+            <text x="260" y="436" text-anchor="middle" class="eco-node-icon">💳</text>
+            <text x="260" y="454" text-anchor="middle" class="eco-node-text">PEMBAYARAN</text>
+            <text x="260" y="467" text-anchor="middle" class="eco-node-text">DIGITAL</text>
+          </g>
+
+          <g class="eco-node" data-node="data" tabindex="0" role="button" aria-label="Data dan Informasi">
+            <circle cx="90" cy="370" r="52" fill="#3156A6"/>
+            <text x="90" y="362" text-anchor="middle" class="eco-node-icon">📊</text>
+            <text x="90" y="380" text-anchor="middle" class="eco-node-text">DATA &amp;</text>
+            <text x="90" y="393" text-anchor="middle" class="eco-node-text">INFORMASI</text>
+          </g>
+
+          <g class="eco-node" data-node="lembaga" tabindex="0" role="button" aria-label="Lembaga atau Mitra Keuangan">
+            <circle cx="90" cy="150" r="52" fill="#243B78"/>
+            <text x="90" y="142" text-anchor="middle" class="eco-node-icon">🏦</text>
+            <text x="90" y="160" text-anchor="middle" class="eco-node-text">LEMBAGA /</text>
+            <text x="90" y="173" text-anchor="middle" class="eco-node-text">MITRA KEUANGAN</text>
+          </g>
+        </svg>
+      </div>
+
+      <div class="ecosystem-info" id="ecosystemInfo">
+        <span class="ecosystem-info-badge">Pilih salah satu titik</span>
+        <h3 id="ecoInfoTitle">Klik salah satu node</h3>
+        <p id="ecoInfoDesc">Sentuh atau klik setiap titik pada diagram untuk melihat peran masing-masing dalam ekosistem pasar digital.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 8. DARI DIGITAL KE PELUANG ============ -->
+<section class="section journey" id="perjalanan">
+  <div class="container">
+    <div class="section-head">
+      <p class="section-kicker">Alur Pertumbuhan</p>
+      <h2 class="section-title">Dari Digital ke Peluang</h2>
+    </div>
+
+    <ol class="journey-track">
+      <li class="journey-step">
+        <span class="journey-number">01</span>
+        <div class="journey-icon">🔗</div>
+        <h3>Terhubung</h3>
+        <p>Pelaku usaha masuk ke ekosistem digital.</p>
+      </li>
+      <li class="journey-step">
+        <span class="journey-number">02</span>
+        <div class="journey-icon">🔎</div>
+        <h3>Ditemukan</h3>
+        <p>Produk lebih mudah ditemukan konsumen.</p>
+      </li>
+      <li class="journey-step">
+        <span class="journey-number">03</span>
+        <div class="journey-icon">💳</div>
+        <h3>Bertransaksi</h3>
+        <p>Interaksi dan transaksi menjadi lebih praktis.</p>
+      </li>
+      <li class="journey-step">
+        <span class="journey-number">04</span>
+        <div class="journey-icon">📈</div>
+        <h3>Berkembang</h3>
+        <p>Data dan informasi membantu pengembangan usaha.</p>
+      </li>
+      <li class="journey-step">
+        <span class="journey-number">05</span>
+        <div class="journey-icon">🌱</div>
+        <h3>Berkelanjutan</h3>
+        <p>Digitalisasi membuka peluang pertumbuhan usaha yang berkelanjutan.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ 9. DAMPAK ============ -->
+<section class="section impact">
+  <div class="container">
+    <div class="section-head">
+      <p class="section-kicker">Manfaat Ekosistem</p>
+      <h2 class="section-title">Dampak yang Dihadirkan</h2>
+    </div>
+    <div class="impact-grid">
+      <article class="impact-card">
+        <div class="impact-icon">🗺️</div>
+        <h3>Akses Pasar</h3>
+        <p>Memperluas peluang pelaku usaha menjangkau konsumen.</p>
+      </article>
+      <article class="impact-card">
+        <div class="impact-icon">⚡</div>
+        <h3>Efisiensi</h3>
+        <p>Membantu promosi dan transaksi menjadi lebih praktis.</p>
+      </article>
+      <article class="impact-card">
+        <div class="impact-icon">🤲</div>
+        <h3>Inklusivitas</h3>
+        <p>Membuka peluang akses pasar bagi lebih banyak pelaku usaha.</p>
+      </article>
+      <article class="impact-card">
+        <div class="impact-icon">🌿</div>
+        <h3>Keberlanjutan</h3>
+        <p>Mendorong pengembangan usaha melalui teknologi dan data.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 10. PELUANG USAHA ============ -->
+<section class="section opportunities" id="peluang">
+  <div class="container">
+    <div class="section-head">
+      <p class="section-kicker">Terbuka Untuk Semua</p>
+      <h2 class="section-title">Peluang di Dalam Ekosistem</h2>
+    </div>
+    <div class="opportunity-grid" id="opportunityGrid">
+      <button class="opportunity-item" data-opp="pasar">
+        <span class="opportunity-icon">📈</span>
+        <span class="opportunity-title">Perluasan Pasar</span>
+      </button>
+      <button class="opportunity-item" data-opp="promosi">
+        <span class="opportunity-icon">📱</span>
+        <span class="opportunity-title">Promosi Digital</span>
+      </button>
+      <button class="opportunity-item" data-opp="transaksi">
+        <span class="opportunity-icon">💳</span>
+        <span class="opportunity-title">Transaksi Digital</span>
+      </button>
+      <button class="opportunity-item" data-opp="data">
+        <span class="opportunity-icon">📊</span>
+        <span class="opportunity-title">Pemanfaatan Data</span>
+      </button>
+      <button class="opportunity-item" data-opp="kolaborasi">
+        <span class="opportunity-icon">🤝</span>
+        <span class="opportunity-title">Kolaborasi</span>
+      </button>
+      <button class="opportunity-item" data-opp="inovasi">
+        <span class="opportunity-icon">🚀</span>
+        <span class="opportunity-title">Inovasi Usaha</span>
+      </button>
+    </div>
+    <p class="opportunity-detail" id="opportunityDetail">Klik salah satu peluang di atas untuk melihat penjelasannya.</p>
+  </div>
+</section>
+
+<!-- ============ 11. PROFIL PELAKU USAHA ============ -->
+<section class="section profiles">
+  <div class="container">
+    <div class="section-head">
+      <p class="section-kicker">Wajah di Balik Produk</p>
+      <h2 class="section-title">Pelaku Usaha dalam Ekosistem</h2>
+    </div>
+    <div class="profile-grid" id="profileGrid"></div>
+  </div>
+</section>
+
+<!-- ============ 12. TIPS DIGITAL ============ -->
+<section class="section tips">
+  <div class="container">
+    <div class="section-head">
+      <p class="section-kicker">Mulai dari Langkah Kecil</p>
+      <h2 class="section-title">Langkah Sederhana Menuju Pasar Digital</h2>
+    </div>
+    <ol class="tips-list">
+      <li><span class="tips-num">1</span><p>Tampilkan produk dengan visual yang menarik.</p></li>
+      <li><span class="tips-num">2</span><p>Gunakan informasi produk yang jelas.</p></li>
+      <li><span class="tips-num">3</span><p>Manfaatkan pembayaran digital.</p></li>
+      <li><span class="tips-num">4</span><p>Catat aktivitas transaksi dan penjualan.</p></li>
+      <li><span class="tips-num">5</span><p>Gunakan data untuk memahami kebutuhan pasar.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ 13. SOLUSI DIGITAL ============ -->
+<section class="section solution" id="tentang">
+  <div class="container solution-inner">
+    <div class="solution-copy">
+      <p class="section-kicker">Menjawab Tantangan</p>
+      <h2 class="section-title">Solusi Digital</h2>
+      <p class="section-lead">Menghubungkan Pelaku Usaha dengan Peluang Pasar</p>
+      <ul class="solution-list">
+        <li>Akses pasar lebih luas</li>
+        <li>Promosi produk digital</li>
+        <li>Transaksi lebih mudah</li>
+        <li>Informasi dan data usaha</li>
+        <li>Penghubung pelaku usaha dan konsumen</li>
+        <li>Dukungan pengembangan usaha</li>
+      </ul>
+    </div>
+    <div class="solution-visual" aria-hidden="true">
+      <svg viewBox="0 0 320 420" class="solution-svg" xmlns="http://www.w3.org/2000/svg">
+        <rect x="20" y="10" width="280" height="400" rx="32" fill="#162A5A"/>
+        <rect x="34" y="38" width="252" height="344" rx="14" fill="#F7F9FC"/>
+        <rect x="48" y="54" width="120" height="14" rx="7" fill="#243B78"/>
+        <rect x="48" y="80" width="224" height="54" rx="12" fill="#DDE8FA"/>
+        <text x="60" y="112" font-size="14" fill="#162A5A" font-weight="700">PasarKoneksi</text>
+        <rect x="48" y="150" width="104" height="104" rx="12" fill="#F7C948"/>
+        <rect x="164" y="150" width="104" height="104" rx="12" fill="#F28C28"/>
+        <rect x="48" y="266" width="104" height="104" rx="12" fill="#3156A6"/>
+        <rect x="164" y="266" width="104" height="104" rx="12" fill="#243B78"/>
+        <circle cx="160" cy="398" r="6" fill="#DDE8FA"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 14. CTA ============ -->
+<section class="section cta-section">
+  <div class="container cta-inner">
+    <h2>Siap Terhubung dengan Peluang?</h2>
+    <p>Mulai jelajahi produk dan lihat bagaimana teknologi membangun ekosistem pasar yang lebih terhubung.</p>
+    <a href="#pasar" class="btn btn-light">Jelajahi Pasar</a>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="./assets/logo.svg" alt="" width="32" height="32">
+      <div>
+        <p class="footer-name">PasarKoneksi</p>
+        <p class="footer-tagline">"Terhubung secara digital, berkembang melalui peluang."</p>
+      </div>
+    </div>
+    <nav class="footer-menu" aria-label="Navigasi footer">
+      <a href="#beranda">Beranda</a>
+      <a href="#pasar">Pasar</a>
+      <a href="#ekosistem">Ekosistem</a>
+      <a href="#peluang">Peluang</a>
+      <a href="#data">Data</a>
+    </nav>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 PasarKoneksi</p>
+    <p>Konsep dikembangkan berdasarkan tema Digital Market Ecosystem.</p>
+  </div>
+</footer>
+
+<!-- ============ MODAL: PRODUCT DETAIL ============ -->
+<div class="modal-overlay" id="productModal" hidden>
+  <div class="modal modal-product" role="dialog" aria-modal="true" aria-labelledby="modalProductTitle">
+    <button class="modal-close" id="closeProductModal" aria-label="Tutup">✕</button>
+    <div class="modal-media">
+      <div class="media-frame modal-image" id="modalImageWrap" data-icon="🛍️">
+        <img id="modalImage" src="" alt="" loading="lazy">
+      </div>
+    </div>
+    <div class="modal-body">
+      <span class="modal-category" id="modalCategory">Kategori</span>
+      <h3 id="modalProductTitle">Nama Produk</h3>
+      <p class="modal-rating" id="modalRating">★★★★★ 4.8</p>
+      <p class="modal-price" id="modalPrice">Rp0</p>
+      <p class="modal-location" id="modalLocation">📍 Lokasi</p>
+      <p class="modal-seller" id="modalSeller">Nama Usaha</p>
+      <p class="modal-desc" id="modalDesc">Deskripsi produk.</p>
+      <div class="modal-actions">
+        <a href="#" id="modalWhatsapp" class="btn btn-primary" target="_blank" rel="noopener">Hubungi Penjual</a>
+        <button class="btn btn-outline" id="modalSimulate">Simulasi Transaksi</button>
+        <button class="btn btn-ghost" id="modalFavorite">♡ Simpan</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ MODAL: SIMULASI TRANSAKSI ============ -->
+<div class="modal-overlay" id="simModal" hidden>
+  <div class="modal modal-sim" role="dialog" aria-modal="true" aria-labelledby="simTitle">
+    <button class="modal-close" id="closeSimModal" aria-label="Tutup">✕</button>
+    <h3 id="simTitle">Simulasi Transaksi</h3>
+
+    <div class="sim-view" id="simFormView">
+      <div class="sim-row">
+        <span>Produk</span>
+        <strong id="simProduct">-</strong>
+      </div>
+      <div class="sim-row">
+        <span>Harga</span>
+        <strong id="simPrice">Rp0</strong>
+      </div>
+      <div class="sim-row sim-qty-row">
+        <span>Jumlah</span>
+        <div class="sim-qty-control">
+          <button type="button" id="simQtyMinus" aria-label="Kurangi jumlah">−</button>
+          <span id="simQty">1</span>
+          <button type="button" id="simQtyPlus" aria-label="Tambah jumlah">+</button>
+        </div>
+      </div>
+      <div class="sim-row sim-total-row">
+        <span>Total</span>
+        <strong id="simTotal">Rp0</strong>
+      </div>
+      <button class="btn btn-primary sim-confirm" id="simConfirm">Konfirmasi Simulasi</button>
+    </div>
+
+    <div class="sim-view sim-success" id="simSuccessView" hidden>
+      <div class="sim-success-icon">✓</div>
+      <h4>Transaksi Berhasil Disimulasikan</h4>
+      <p class="sim-note">Fitur ini merupakan simulasi untuk menggambarkan proses transaksi dalam ekosistem pasar digital.</p>
+      <button class="btn btn-outline" id="simDone">Selesai</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ TOAST CONTAINER ============ -->
+<div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+<script src="./script.js"></script>
+</body>
+</html>
